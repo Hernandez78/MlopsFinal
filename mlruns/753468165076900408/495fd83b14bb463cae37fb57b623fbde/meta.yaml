@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/753468165076900408/495fd83b14bb463cae37fb57b623fbde/artifacts
+end_time: 1746893228521
+entry_point_name: ''
+experiment_id: '753468165076900408'
+lifecycle_stage: active
+run_id: 495fd83b14bb463cae37fb57b623fbde
+run_name: merciful-bug-981
+run_uuid: 495fd83b14bb463cae37fb57b623fbde
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746893228497
+status: 3
+tags: []
+user_id: runner

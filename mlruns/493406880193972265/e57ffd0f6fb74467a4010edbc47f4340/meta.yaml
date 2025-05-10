@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/493406880193972265/e57ffd0f6fb74467a4010edbc47f4340/artifacts
+end_time: 1746893211989
+entry_point_name: ''
+experiment_id: '493406880193972265'
+lifecycle_stage: active
+run_id: e57ffd0f6fb74467a4010edbc47f4340
+run_name: EDA básica
+run_uuid: e57ffd0f6fb74467a4010edbc47f4340
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746893208274
+status: 3
+tags: []
+user_id: runner

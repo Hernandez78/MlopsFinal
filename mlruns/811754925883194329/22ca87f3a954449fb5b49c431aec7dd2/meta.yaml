@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/811754925883194329/22ca87f3a954449fb5b49c431aec7dd2/artifacts
+end_time: 1746893222294
+entry_point_name: ''
+experiment_id: '811754925883194329'
+lifecycle_stage: active
+run_id: 22ca87f3a954449fb5b49c431aec7dd2
+run_name: sneaky-kit-550
+run_uuid: 22ca87f3a954449fb5b49c431aec7dd2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746893217272
+status: 3
+tags: []
+user_id: runner
