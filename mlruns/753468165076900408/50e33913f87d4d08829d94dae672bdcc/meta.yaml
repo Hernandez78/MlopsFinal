@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/753468165076900408/50e33913f87d4d08829d94dae672bdcc/artifacts
+end_time: 1746892970938
+entry_point_name: ''
+experiment_id: '753468165076900408'
+lifecycle_stage: active
+run_id: 50e33913f87d4d08829d94dae672bdcc
+run_name: hilarious-cow-671
+run_uuid: 50e33913f87d4d08829d94dae672bdcc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746892970914
+status: 3
+tags: []
+user_id: runner
