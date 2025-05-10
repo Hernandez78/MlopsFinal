@@ -13,7 +13,7 @@ os.makedirs(outputs_dir, exist_ok=True)
 # ================================
 # Configurar MLflow para EDA
 # ================================
-mlflow.set_tracking_uri("mlruns/")
+mlflow.set_tracking_uri("http://mlflow.myserver.com:5000")
 mlflow.set_experiment("EDA - Exploración de Datos")
 
 with mlflow.start_run(run_name="EDA básica"):
