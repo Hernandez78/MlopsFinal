@@ -25,8 +25,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: 📂 Crear directorio mlruns
-        run: mkdir -p mlruns  # Crea el directorio mlruns si no existe
+      - name: 📂 Crear directorio mlruns y ajustar permisos
+        run: |
+          mkdir -p mlruns  # Crea la carpeta si no existe
+          chmod -R 777 mlruns  # Otorga permisos para evitar errores de acceso
 
       - name: 🧪 Ejecutar flujo completo (EDA, limpieza, entrenamiento, validación)
         run: make full
@@ -53,3 +55,4 @@ jobs:
 
       - name: 🚀 Empujar cambios a main
         run: git push origin main
+

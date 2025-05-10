@@ -17,7 +17,7 @@ os.makedirs(artifacts_dir, exist_ok=True)
 # ============================
 # Configurar MLflow
 # ============================
-mlflow.set_tracking_uri("file://./mlruns")
+mlflow.set_tracking_uri("mlruns/")
 mlflow.set_experiment("Preprocesamiento - Clean Data")
 
 with mlflow.start_run(run_name="Limpieza y división de datos"):
