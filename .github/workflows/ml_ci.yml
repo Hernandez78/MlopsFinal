@@ -27,36 +27,36 @@ jobs:
 
       - name: 📦 Correr Mlflow localmente
         run: |
-          mlflow ui --port 5000
+          mlflow ui --port 5000 &
 
-      # - name: 📂 Crear directorio mlruns y ajustar permisos
-      #   run: |
-      #     mkdir -p mlruns  # Crea la carpeta si no existe
-      #     chmod -R 777 mlruns  # Otorga permisos para evitar errores de acceso
+      - name: 📂 Crear directorio mlruns y ajustar permisos
+        run: |
+          mkdir -p mlruns  # Crea la carpeta si no existe
+          chmod -R 777 mlruns  # Otorga permisos para evitar errores de acceso
 
-      # - name: 🧪 Ejecutar flujo completo (EDA, limpieza, entrenamiento, validación)
-      #   run: make full
+      - name: 🧪 Ejecutar flujo completo (EDA, limpieza, entrenamiento, validación)
+        run: make full
 
-      # - name: 📤 Subir modelo .pkl como artefacto
-      #   if: success()
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: mejor_modelo
-      #     path: models/mejor_modelo.pkl
+      - name: 📤 Subir modelo .pkl como artefacto
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mejor_modelo
+          path: models/mejor_modelo.pkl
 
-      # # --- Subir cambios en mlruns al repositorio ---
-      # - name: ⚙️ Configurar Git
-      #   run: |
-      #     git config --global user.name 'github-actions[bot]'
-      #     git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+      # --- Subir cambios en mlruns al repositorio ---
+      - name: ⚙️ Configurar Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-      # - name: ✨ Añadir cambios en mlruns
-      #   run: git add mlruns
+      - name: ✨ Añadir cambios en mlruns
+        run: git add mlruns
 
-      # - name: 📝 Confirmar cambios en mlruns (si existen)
-      #   run: |
-      #     git diff --staged --quiet || git commit -m "Actualizar mlruns con resultados de ejecución [skip ci]"
+      - name: 📝 Confirmar cambios en mlruns (si existen)
+        run: |
+          git diff --staged --quiet || git commit -m "Actualizar mlruns con resultados de ejecución [skip ci]"
 
-      # - name: 🚀 Empujar cambios a main
-      #   run: git push origin main
+      - name: 🚀 Empujar cambios a main
+        run: git push origin main
 

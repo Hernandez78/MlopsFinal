@@ -10,9 +10,10 @@ from mlflow.exceptions import MlflowException
 # ✅ Rutas controladas y absolutas
 # ================================
 def setup_mlflow(experiment_name):
-    mlflow.set_tracking_uri("file://mlruns")
-    os.makedirs("mlruns", exist_ok=True)
-    os.makedirs("outputs", exist_ok=True)
+    mlflow.set_tracking_uri("http://localhost:5000")
+    mlflow.set_experiment("EDA - Exploración de Datos")
+    #os.makedirs("mlruns", exist_ok=True)
+    #os.makedirs("outputs", exist_ok=True)
     mlflow.set_experiment(experiment_name)
 
 # ================================

@@ -17,8 +17,8 @@ os.makedirs(artifacts_dir, exist_ok=True)
 # ============================
 # Configurar MLflow
 # ============================
-mlflow.set_tracking_uri("mlruns/")
-mlflow.set_experiment("Preprocesamiento - Clean Data")
+mlflow.set_tracking_uri("http://localhost:5000")
+mlflow.set_experiment("EDA - Exploración de Datos")
 
 with mlflow.start_run(run_name="Limpieza y división de datos"):
     # ============================

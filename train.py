@@ -12,8 +12,9 @@ from mlflow.exceptions import MlflowException
 # ✅ Configurar MLflow con rutas relativas
 # ===============================
 def setup_mlflow(experiment_name):
-    mlflow.set_tracking_uri("file://mlruns")
-    os.makedirs("mlruns", exist_ok=True)
+    mlflow.set_tracking_uri("http://localhost:5000")
+    mlflow.set_experiment("EDA - Exploración de Datos")
+    #os.makedirs("mlruns", exist_ok=True)
     try:
         experiment_id = mlflow.create_experiment(experiment_name)
         print(f"✅ Experimento '{experiment_name}' creado.")
