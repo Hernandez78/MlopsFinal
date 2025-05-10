@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/811754925883194329/9994432f77d2480eb31451bb2554585d/artifacts
+end_time: 1746890988561
+entry_point_name: ''
+experiment_id: '811754925883194329'
+lifecycle_stage: active
+run_id: 9994432f77d2480eb31451bb2554585d
+run_name: big-hog-713
+run_uuid: 9994432f77d2480eb31451bb2554585d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746890985507
+status: 3
+tags: []
+user_id: runner

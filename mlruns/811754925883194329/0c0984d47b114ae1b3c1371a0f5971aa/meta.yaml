@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/811754925883194329/0c0984d47b114ae1b3c1371a0f5971aa/artifacts
+end_time: 1746890985493
+entry_point_name: ''
+experiment_id: '811754925883194329'
+lifecycle_stage: active
+run_id: 0c0984d47b114ae1b3c1371a0f5971aa
+run_name: colorful-lark-762
+run_uuid: 0c0984d47b114ae1b3c1371a0f5971aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746890980433
+status: 3
+tags: []
+user_id: runner

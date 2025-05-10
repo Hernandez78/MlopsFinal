@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/493406880193972265/8bfc062cbc4049f994251078211b36cc/artifacts
+end_time: 1746890978021
+entry_point_name: ''
+experiment_id: '493406880193972265'
+lifecycle_stage: active
+run_id: 8bfc062cbc4049f994251078211b36cc
+run_name: Limpieza y división de datos
+run_uuid: 8bfc062cbc4049f994251078211b36cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746890977534
+status: 3
+tags: []
+user_id: runner
