@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/753468165076900408/a01033baa5bb445cb3851ef47d93fd4d/artifacts
+end_time: 1746892970634
+entry_point_name: ''
+experiment_id: '753468165076900408'
+lifecycle_stage: active
+run_id: a01033baa5bb445cb3851ef47d93fd4d
+run_name: Validación con mejor modelo
+run_uuid: a01033baa5bb445cb3851ef47d93fd4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746892970578
+status: 3
+tags: []
+user_id: runner
